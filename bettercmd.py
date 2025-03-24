@@ -1268,7 +1268,7 @@ if __name__ == "__main__":
         console.print(Panel("Hello! Welcome to BetterCMD, let's get you started!", title="BetterCMD", border_style="cyan"))
         delay(1)
         
-        user = sign_up(forTesting=True) #* For testing set True, if not set False
+        user = sign_up()
     if not IgnoreStartup:
         startupcommands()
     
